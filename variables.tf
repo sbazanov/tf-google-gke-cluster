@@ -1,5 +1,6 @@
 variable "GOOGLE_PROJECT" {
   type        = string
+  default     = "silicon-bivouac-402714"
   description = "GCP project name"
 }
 
