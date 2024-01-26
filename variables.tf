@@ -24,7 +24,7 @@ variable "GKE_NUM_NODES" {
 
 variable "GKE_CLUSTER_NAME" {
   type        = string
-  default     = "infiniteloopbreakers"
+  default     = "main"
   description = "GKE cluster name"
 }
 
