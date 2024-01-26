@@ -1,18 +1,18 @@
 variable "GOOGLE_PROJECT" {
   type        = string
-  default     = "silicon-bivouac-402714" 
+  default     = "" 
   description = "GCP project name"
 }
 
 variable "GOOGLE_REGION" {
   type        = string
-  default     = "us-central1"
+  default     = "us-central1-c"
   description = "GCP region to use"
 }
 
 variable "GKE_MACHINE_TYPE" {
   type        = string
-  default     = "n2-standard-2"
+  default     = "e2-standard-2"
   description = "Machine type"
 }
 
@@ -24,7 +24,7 @@ variable "GKE_NUM_NODES" {
 
 variable "GKE_CLUSTER_NAME" {
   type        = string
-  default     = "main"
+  default     = ""
   description = "GKE cluster name"
 }
 
