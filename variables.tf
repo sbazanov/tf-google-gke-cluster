@@ -12,7 +12,7 @@ variable "GOOGLE_REGION" {
 
 variable "GKE_MACHINE_TYPE" {
   type        = string
-  default     = "e2-standard-2"
+  default     = "t2d-standard-1"
   description = "Machine type"
 }
 
@@ -24,7 +24,7 @@ variable "GKE_NUM_NODES" {
 
 variable "GKE_CLUSTER_NAME" {
   type        = string
-  default     = ""
+  default     = "InfiniteLoopBreakers"
   description = "GKE cluster name"
 }
 
